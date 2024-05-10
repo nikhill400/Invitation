@@ -18,7 +18,7 @@ import sid3 from "../src/Assets/slider-3.png";
 import sid4 from "../src/Assets/silder-4.png";
 import sid5 from "../src/Assets/slider-5.png";
 import sid6 from "../src/Assets/slider-6.png";
-
+import des1 from "./Assets/des-3.png"
 import savethedate from "../src/Assets/save the date.png"
 const InvitationCard = () => {
 
@@ -71,6 +71,7 @@ const InvitationCard = () => {
             <div className="video-section" >
                 <h3 className='tit-1'>The best thing to hold onto in life is each other</h3>
             </div>
+         
             {/* <videooo? */}
             <video width="100%" controls data-aos="fade-up"
                 data-aos-anchor-placement="bottom-bottom" data-aos-duration="1000">
@@ -78,6 +79,10 @@ const InvitationCard = () => {
 
                 Your browser does not support the video tag.
             </video>
+       
+            <div>
+                <img src={des1} />
+            </div>
             {/* Event Details Section */}
             <div className="event-details">
                 <h4 className="event-heading">Event Info</h4>
