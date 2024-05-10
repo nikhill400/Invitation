@@ -12,7 +12,7 @@
 /* /////////////////////////////////////////////////////////////////////////////////////Banner section */
 .banner {
     height: 500px;
-    background-image: url('./image/banner-1.png');
+    background-image: url('./Assets/banner-1.png');
     background-size: cover;
     background-position: center;
     border-radius: 15px 15px 15px 15px;

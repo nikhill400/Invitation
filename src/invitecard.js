@@ -7,18 +7,19 @@ import 'aos/dist/aos.css';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import img1 from "../src/image/noun-time-6768567.png";
-import img2 from "../src/image/noun-chruch-5505991.png";
-import img3 from "../src/image/noun-date-4017641.png";
-import img4 from "../src/image/noun-hall-gate-3862038.png";
-import vid1 from "../src/video/u.mp4";
-import sid1 from "../src/image/slider-1.png"
-import sid2 from "../src/image/slider-2.png"
-import sid3 from "../src/image/slider-3.png"
-import sid4 from "../src/image/silder-4.png"
-import sid5 from "../src/image/slider-5.png"
-import sid6 from "../src/image/slider-6.png"
-import savethedate from "../src/image/save the date.png"
+
+import img1 from "../src/Assets/noun-time-6768567.png";
+import img2 from "../src/Assets/noun-chruch-5505991.png";
+import img3 from "../src/Assets/noun-date-4017641.png";
+import img4 from "../src/Assets/noun-hall-gate-3862038.png";
+import sid1 from "../src/Assets/slider-1.png";
+import sid2 from "../src/Assets/slider-2.png";
+import sid3 from "../src/Assets/slider-3.png";
+import sid4 from "../src/Assets/silder-4.png";
+import sid5 from "../src/Assets/slider-5.png";
+import sid6 from "../src/Assets/slider-6.png";
+
+import savethedate from "../src/Assets/save the date.png"
 const InvitationCard = () => {
 
 
@@ -68,12 +69,7 @@ const InvitationCard = () => {
             <div className="video-section" >
                 <h3 className='tit-1'>So they are no longer two, but one. Therefore, what God has joined together, let no one separate.</h3>
                 <h3 className='tit-2'>  Matthew 19:6</h3>
-                <video width="100%" controls data-aos="fade-up"
-                    data-aos-anchor-placement="bottom-bottom" data-aos-duration="1000">
-                      <source src={vid1} type="video/mp4" />
-                  
-                    Your browser does not support the video tag.
-                </video>
+             
 
 
 
