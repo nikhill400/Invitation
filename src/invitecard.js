@@ -67,8 +67,8 @@ const InvitationCard = () => {
 
             {/* Save the Date Video Section */}
             <div className="video-section" >
-                <h3 className='tit-1'>So they are no longer two, but one. Therefore, what God has joined together, let no one separate.</h3>
-                <h3 className='tit-2'>  Matthew 19:6</h3>
+                <h3 className='tit-1'>The best thing to hold onto in life is each other</h3>
+               
              
 
 
@@ -80,17 +80,17 @@ const InvitationCard = () => {
                 <h4 className="event-heading">Event Info</h4>
                 <div className="event-info">
                     {/* Event date */}
-                    <div className="event-info-item" data-aos="zoom-out-right" data-aos-duration="1000"> {/* Set the duration to 2000 milliseconds (2 seconds) */}
+                    <div className="event-info-item" data-aos="zoom-in-up" data-aos-duration="1000"> {/* Set the duration to 2000 milliseconds (2 seconds) */}
                         <img className="event-img" src={img3} alt="Event Date" />
                         <p className="event-date">May 19, 2024</p>
                     </div>
                     {/* Event time */}
-                    <div className="event-info-item" data-aos="zoom-out-left" data-aos-duration="1000"> {/* Set the duration to 2000 milliseconds (2 seconds) */}
+                    <div className="event-info-item" data-aos="zoom-in-up" data-aos-duration="1000"> {/* Set the duration to 2000 milliseconds (2 seconds) */}
                         <img className="event-img" src={img1} alt="Event Time" />
-                        <p className="event-time">10:00 AM to 3:00 PM</p>
+                        <p className="event-time">11:00 AM to 3:00 PM</p>
                     </div>
                     {/* Event location - Church */}
-                    <div className="event-info-item" data-aos="zoom-out-right" data-aos-duration="1000"> {/* Set the duration to 2000 milliseconds (2 seconds) */}
+                    <div className="event-info-item" data-aos="zoom-in-up" data-aos-duration="1000"> {/* Set the duration to 2000 milliseconds (2 seconds) */}
                         <img className="event-img" src={img2} alt="Church" />
                         <p className="event-location">ST. James Church </p>
                         <button onClick={() => openMap('https://maps.app.goo.gl/dUKmHJVwtgQxd9tW8')} > {/* Set the duration to 2000 milliseconds (2 seconds) */}
@@ -98,7 +98,7 @@ const InvitationCard = () => {
                         </button>
                     </div>
                     {/* Event location - Hall */}
-                    <div className="event-info-item" data-aos="zoom-out-left" data-aos-duration="1000"> {/* Set the duration to 2000 milliseconds (2 seconds) */}
+                    <div className="event-info-item" data-aos="zoom-in-up" data-aos-duration="1000"> {/* Set the duration to 2000 milliseconds (2 seconds) */}
                         <img className="event-img" src={img4} alt="Hall" />
                         <p className="event-location">Fathima Sultan Auditorium</p>
                         <button onClick={() => openMap('https://maps.app.goo.gl/EM5Uy2bE2fHAALs78')} > {/* Set the duration to 2000 milliseconds (2 seconds) */}
