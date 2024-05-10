@@ -1,0 +1,207 @@
+
+.card-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color:#ffffff;
+    
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////Banner section */
+.banner {
+    height: 500px;
+    background-image: url('./image/banner-1.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 15px 15px;
+    margin-bottom: 10%;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////Slider section */
+
+.image-slider .slick-slider {
+    position: relative;
+    width: 100%;
+    height: auto;
+
+}
+
+.image-slider .slick-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.5s ease-in-out;
+}
+
+.image-slider .slick-dots li button:before {
+    color: #000;
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
+}
+
+.image-slider .slick-dots li.slick-active button:before {
+    opacity: 1;
+
+}
+
+.image-slider .slick-prev,
+.image-slider .slick-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    transition: opacity 0.3s ease;
+}
+
+.image-slider .slick-prev:hover,
+.image-slider .slick-next:hover {
+    opacity: 0.8;
+}
+
+.image-slider .slick-prev {
+    left: 10px;
+}
+
+.image-slider .slick-next {
+    right: 10px;
+}
+
+.image-slider .slick-prev:before,
+.image-slider .slick-next:before {
+    color: #ffffff;
+}
+
+@media (max-width: 768px) {
+
+    .image-slider .slick-prev,
+    .image-slider .slick-next {
+        width: 25px;
+        height: 25px;
+    }
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////////<.video-section */
+
+
+.tit-1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 11px;
+    font-weight: 700;
+    color: #2a2a2a;
+    text-align: justify;
+    margin-bottom: 2px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.tit-2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: #2a2a2a;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+float: right;
+}
+
+.video-section {
+    padding: 10px 0;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////<.event-details */
+.event-details {
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #c9dce3;
+    margin: 5px;
+
+}
+
+
+.location {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    text-align: center;
+}
+
+button {
+
+    background-color: #518d8d;
+    color: white;
+    border: none;
+    border-radius: 10px 5px 10px 5px; 
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+
+}
+
+button:hover {
+    background-color: #92dbdb;
+    color: #000;
+}
+
+.event-details {
+    padding: 20px;
+}
+
+.event-heading {
+    margin-bottom: 10px;
+    font-size: 1.7rem;
+    color: #000000;
+}
+
+.event-info {
+
+    justify-content: space-between;
+}
+
+.event-info-item {
+    text-align: center;
+    padding: 10px;
+}
+
+.event-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+}
+
+.event-img:hover {
+    transform: scale(1.2);
+}
+
+.event-date,
+.event-time,
+.event-location {
+    margin-top: 5px;
+}
+
+
+
+/* ??????????????????????????????? savethedate*/
+
+.save-the-date-image {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+}
