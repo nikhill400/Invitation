@@ -7,7 +7,7 @@ import 'aos/dist/aos.css';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-
+import vid1 from "./Assets/Video.webm"
 import img1 from "../src/Assets/noun-time-6768567.png";
 import img2 from "../src/Assets/noun-chruch-5505991.png";
 import img3 from "../src/Assets/noun-date-4017641.png";
@@ -65,14 +65,17 @@ const InvitationCard = () => {
                 </Slider>
             </div>
 
+
+            {/* <videooo? */}
+            <video width="100%" controls data-aos="fade-up"
+                    data-aos-anchor-placement="bottom-bottom" data-aos-duration="1000">
+                      <source src={vid1} type="video/mp4" />
+                  
+                    Your browser does not support the video tag.
+                </video>
             {/* Save the Date Video Section */}
             <div className="video-section" >
                 <h3 className='tit-1'>The best thing to hold onto in life is each other</h3>
-               
-             
-
-
-
             </div>
 
             {/* Event Details Section */}
