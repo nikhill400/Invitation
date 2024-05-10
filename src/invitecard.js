@@ -124,7 +124,7 @@ const InvitationCard = () => {
             </div>
             <footer>
               
-                    <div class="footer-logo">
+                    <div class="footer-logo" data-aos="zoom-in-up" data-aos-duration="1000">
                         <img src={logo} alt="Logo" class="logo-image" />
                     </div>
 
