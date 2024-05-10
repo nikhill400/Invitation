@@ -209,3 +209,16 @@ button:hover {
     margin-top: 10px;
     border-radius: 5px;
 }
+/* ?????????????????///////////////// logo */
+
+.footer-logo {
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+
+.logo-image {
+    width: 100px;
+    height: auto; 
+    margin-left: 260px;
+}
+
