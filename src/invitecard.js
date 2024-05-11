@@ -20,7 +20,7 @@ import sid5 from "../src/Assets/slider-5.png";
 import sid6 from "../src/Assets/slider-6.png";
 import des1 from "./Assets/des-3.png"
 import savethedate from "../src/Assets/save the date.png"
-import logo from "./Assets/logo/logo-2.png"
+import logo from "./Assets/logo/Logo.png"
 
 const InvitationCard = () => {
 
